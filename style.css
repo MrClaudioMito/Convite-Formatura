@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
-    background-image: url("images/wpp3.jpg"), linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("images/fundo.jpg");
+    background-image: url("images/wpp2.jpg"), linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("images/fundo.jpg");
     background-size: cover;        /* cobre a tela inteira */
     background-position: top center;   /* centraliza */
     background-repeat: no-repeat;  /* não repete */
@@ -15,7 +15,7 @@ body {
     align-items: center;      /* alinha verticalmente */
     gap: 25px;                /* espaço entre foto e texto */
     max-width: 600px;
-    margin: 500px auto 25px;
+    margin: 100px auto 25px;
     background: rgba(255, 255, 255, 0.75); /* branco com transparência */
     padding: clamp(16px, 4vw, 28px);
     border-radius: 20px;
@@ -55,4 +55,24 @@ body {
         flex-direction: column;
         text-align: center;
     }
+}
+.botoes{
+    text-align: center;
+}
+
+.btn-comecar {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #2ecc71; /* ajuste a cor */
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 30px;
+    font-family: inherit;
+    transition: 0.3s ease;
+}
+
+.btn-comecar:hover {
+    background-color: #27ae60;
+    transform: scale(1.05);
 }
