@@ -14,8 +14,8 @@ body {
     display: flex;
     align-items: center;      /* alinha verticalmente */
     gap: 25px;                /* espaço entre foto e texto */
-    max-width: 550px;
-    margin: 100px auto 25px;
+    max-width: 600px;
+    margin: 500px auto 25px;
     background: rgba(255, 255, 255, 0.75); /* branco com transparência */
     padding: clamp(16px, 4vw, 28px);
     border-radius: 20px;
@@ -39,8 +39,8 @@ body {
 }
 
 .foto {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;        /* evita distorção */
     border-radius: 12px;      /* cantos arredondados */
     margin: auto;
