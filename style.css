@@ -1,0 +1,58 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background-image: url("images/wpp3.jpg"), linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("images/fundo.jpg");
+    background-size: cover;        /* cobre a tela inteira */
+    background-position: top center;   /* centraliza */
+    background-repeat: no-repeat;  /* não repete */
+    margin: 0;
+    background-attachment: fixed;
+}
+
+
+.dedicatoria {
+    display: flex;
+    align-items: center;      /* alinha verticalmente */
+    gap: 25px;                /* espaço entre foto e texto */
+    max-width: 550px;
+    margin: 100px auto 25px;
+    background: rgba(255, 255, 255, 0.75); /* branco com transparência */
+    padding: clamp(16px, 4vw, 28px);
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.mensagem{
+    text-align: justify;
+}
+
+.joguinho {
+    align-items: center;      /* alinha verticalmente */
+    text-align: center;
+    gap: 20px;                /* espaço entre foto e texto */
+    max-width: 1000px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.75); /* branco com transparência */
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.foto {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;        /* evita distorção */
+    border-radius: 12px;      /* cantos arredondados */
+    margin: auto;
+}
+
+.texto {
+    font-family: Arial, sans-serif;
+}
+
+@media (max-width: 600px) {
+    .convite {
+        flex-direction: column;
+        text-align: center;
+    }
+}
